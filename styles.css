@@ -171,14 +171,18 @@ nav li {
     list-style: none;
 }
 
+nav li:hover {
+    color: #C271FF;
+}
+
 nav li a {
     text-decoration: none;
     margin: 0 20px;
     color: var(--blue-font);
+    transition: 0.3s;
 
     &:hover {
-        color: #C271FF;
-        transition: 0.3s;
+        color: rgb(255, 255, 255, 0.6);
     }
 }
 
@@ -1154,15 +1158,16 @@ nav li a {
     color: rgba(255, 255, 255, 0.5);
     transition: 0.3s;
 
-    &:hover {
+    /* &:hover {
         color: var(--pink-color);
         cursor: pointer;
-    }
+    } */
 }
 
-/*.footer-first a {
-    text-decoration: none;
-}*/
+/* .footer-first li a:hover {
+    color: var(--pink-color);
+    cursor: pointer;
+} */
 
 .footer-first nav {
     margin: 0 20px;

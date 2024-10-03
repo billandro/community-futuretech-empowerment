@@ -46,19 +46,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Get the current page URL
-    const currentPage = window.location.pathname;
+    // const currentPage = window.location.pathname;
 
-    // Special case for the homepage
-    const homepage = currentPage === '/' || currentPage.includes('index.html');
+    // // Special case for the homepage
+    // const homepage = currentPage === '/' || currentPage.includes('index.html');
 
-    // Set active link based on URL
-    navLinks.forEach(link => {
-        if (homepage && link.getAttribute('href') === 'index.html') {
-            link.classList.add('active');
-        } else if (link.getAttribute('href') === currentPage) {
-            link.classList.add('active');
-        }
-    });
+    // // Set active link based on URL
+    // navLinks.forEach(link => {
+    //     if (homepage && link.getAttribute('href') === 'index.html') {
+    //         link.classList.add('active');
+    //     } else if (link.getAttribute('href') === currentPage) {
+    //         link.classList.add('active');
+    //     }
+    // });
 
 
     // testing
